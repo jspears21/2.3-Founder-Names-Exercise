@@ -9,12 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+      var founders = ["Sergey Brin","Larry Page","Jennifer Hyman","Jenny Fleiss"]
 
     @IBOutlet weak var founder1: UILabel!
     
     @IBOutlet weak var founder2: UILabel!
     
-      var founders = ["Sergey Brin","Larry Page","Jennifer Hyman","Jenny Fleiss"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
